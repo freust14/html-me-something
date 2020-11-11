@@ -1,17 +1,20 @@
 html {
     background-color: floralwhite;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Cambria;
 }
 
 header {
-    padding: 50px;
+    margin-bottom: 50px;
+    padding: 60px;
     border-style:solid;
     border-color: black;
     border-width: 2px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     background-color: sandybrown;
+    line-height: 140%; 
     }
 
 article {
@@ -28,15 +31,26 @@ h2 {
 footer {
     border-top-style: solid;
     border-color: gray;
-    border-size: 2px;
+    border-width: 2px;
     font-size: 12px;
     font-family: Arial;
+    line-height: 50%;
 }
 
+.standings-header {
+    font-size: 18px;
+    text-indent: 155px;
+    text-decoration: underline;
+    font-family: Arial;
+    padding-top: 10px;
+    padding-bottom: 0px;
+
+}
 
 .season-summary {
     font-size: 20px;
 }
+
 
 #player-img {
     border-style: solid;
